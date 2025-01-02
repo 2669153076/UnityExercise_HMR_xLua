@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "匕首",
+        "icon": "Icon_1",
+        "type": 1,
+        "price": 100,
+        "tips": "一把普通的匕首"
+    },
+    {
+        "id": 2,
+        "name": "头盔",
+        "icon": "Icon_2",
+        "type": 1,
+        "price": 150,
+        "tips": "普通的头盔"
+    },
+    {
+        "id": 3,
+        "name": "红药",
+        "icon": "Icon_3",
+        "type": 2,
+        "price": 10,
+        "tips": "回复HP"
+    },
+    {
+        "id": 4,
+        "name": "蓝药",
+        "icon": "Icon_4",
+        "type": 2,
+        "price": 10,
+        "tips": "回复MP"
+    },
+    {
+        "id": 5,
+        "name": "红宝石",
+        "icon": "Icon_5",
+        "type": 3,
+        "price": 999,
+        "tips": "红宝石，色批"
+    },
+    {
+        "id": 6,
+        "name": "蓝宝石",
+        "icon": "Icon_6",
+        "type": 3,
+        "price": 999,
+        "tips": "蓝宝石，红宝石的妹妹"
+    }
+]
