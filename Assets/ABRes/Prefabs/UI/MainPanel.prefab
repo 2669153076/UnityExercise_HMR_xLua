@@ -59,7 +59,7 @@ GameObject:
   - component: {fileID: 4961792483116475377}
   - component: {fileID: 6468446634231798657}
   m_Layer: 5
-  m_Name: RoleBtn
+  m_Name: btnRole
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -179,7 +179,7 @@ GameObject:
   - component: {fileID: 7576665511362638665}
   - component: {fileID: 2823048467088208053}
   m_Layer: 5
-  m_Name: SkillBtn
+  m_Name: btnSkill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

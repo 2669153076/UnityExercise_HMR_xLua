@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using System.Xml.Linq;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -55,7 +55,7 @@ namespace Custom.BaseFramework {
             Object obj = abDic[abName].LoadAsset(resName);
             if (obj is GameObject)
             {
-                return Instantiate(obj);
+                return GameObject.Instantiate(obj);
             }
             else
                 return obj;
@@ -68,7 +68,7 @@ namespace Custom.BaseFramework {
             Object obj = abDic[abName].LoadAsset(resName, type);
             if (obj is GameObject)
             {
-                return Instantiate(obj);
+                return GameObject.Instantiate(obj);
             }
             else
                 return obj;
@@ -80,7 +80,7 @@ namespace Custom.BaseFramework {
             T obj = abDic[abName].LoadAsset<T>(resName);
             if (obj is GameObject)
             {
-                return Instantiate(obj);
+                return GameObject.Instantiate(obj);
             }
             else
                 return obj;
@@ -124,6 +124,7 @@ namespace Custom.BaseFramework {
         public void LoadResAsync(string abName, string resName, UnityAction<Object> callback)
         {
             StartCoroutine(LoadResCoroutine(abName, resName, callback));
+            
         }
         private IEnumerator LoadResCoroutine(string abName, string resName, UnityAction<Object> callback)
         {
@@ -133,7 +134,7 @@ namespace Custom.BaseFramework {
 
             if (abr.asset is GameObject)
             {
-                callback(Instantiate(abr.asset));
+                callback(GameObject.Instantiate(abr.asset));
             }
             else
                 callback(abr.asset);
@@ -169,7 +170,7 @@ namespace Custom.BaseFramework {
 
             if (abr.asset is GameObject)
             {
-                callback(Instantiate(abr.asset) as T);
+                callback(GameObject.Instantiate(abr.asset) as T);
             }
             else
                 callback(abr.asset as T);

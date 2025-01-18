@@ -108,7 +108,7 @@ GameObject:
   - component: {fileID: 1730936356361161464}
   - component: {fileID: 1493927156753192349}
   m_Layer: 5
-  m_Name: BtnClose
+  m_Name: btnClose
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -226,7 +226,7 @@ GameObject:
   - component: {fileID: 5897237963447540189}
   - component: {fileID: 636802424154102063}
   m_Layer: 5
-  m_Name: ToggleGem
+  m_Name: togGem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -463,7 +463,7 @@ GameObject:
   - component: {fileID: 7094533743555499041}
   - component: {fileID: 8804631382632121977}
   m_Layer: 5
-  m_Name: ToggleItem
+  m_Name: togItem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -867,7 +867,7 @@ GameObject:
   - component: {fileID: 7769464753958075787}
   - component: {fileID: 1664556212150653955}
   m_Layer: 5
-  m_Name: Scroll View
+  m_Name: svBag
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1551,7 +1551,7 @@ GameObject:
   - component: {fileID: 3358215336300970917}
   - component: {fileID: 7578112013399378265}
   m_Layer: 5
-  m_Name: ToggleEquip
+  m_Name: togEquip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
